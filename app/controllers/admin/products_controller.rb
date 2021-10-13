@@ -1,6 +1,5 @@
 class Admin::ProductsController < ApplicationController
-  puts '========'
-  puts ENV['ADMIN_USERNAME']
+  
   http_basic_authenticate_with name: ENV['ADMIN_USERNAME'], password: ENV['ADMIN_PASSWORD']
 
   def index

@@ -1,0 +1,34 @@
+<table class="table">
+  <tr>
+    <td><p>Order Id</p></td>
+    <td><%= @order.id %></td>
+  </tr>
+  <tr>
+      <td><p>Order Total</p></td>
+      <td><%= @order.total_cents %></td>
+  </tr>
+  <tr>
+    <td><p>Email</p></td>
+    <td><%= @order.email %></td>
+  </tr>
+  <tr>
+    <td><p>Order Placed</p></td>
+    <td><%= @order.created_at %></td>
+  </tr>
+
+  
+  <% @order.line_items.each do |item|%>
+  <table class="table">
+  <th>Order Item</th>
+  <th>Item Description</th>
+  <th>Item Price</th>
+  <tr>
+    <td><%=item.product.name%></td>
+    <td><%= item.product.description %></td>
+    <td><%= item.product.image %></td>
+    <td><%= item.quantity%> X <%= humanized_money_with_symbol item.item_price_cents %></td>
+  </tr>
+ 
+  </table>
+  <%end%>  
+  </table>

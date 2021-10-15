@@ -28,5 +28,15 @@ class ApplicationController < ActionController::Base
     }
     cookies[:cart]
   end
+# look up user if logged in and save that user obj to @current_user variable
+  def current_user
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  end
+  # allows us to use @current_user variable in views files
+  helper_method :current_user
+# sends them to login page when not logged in. to make an entire page require authorization before viewing, add before_filter :authorize
+  def authorize
+    redirect_to '/login' unless current_user
+  end
 
 end

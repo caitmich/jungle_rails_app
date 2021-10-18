@@ -32,10 +32,10 @@ http_basic_authenticate_with name: ENV['ADMIN_USERNAME'], password: ENV['ADMIN_P
     params.require(:product).permit(
       :name,
       :description,
-      :category_id,
+      :category,
       :quantity,
       :image,
-      :price
+      :price_cents
     )
   end
 

@@ -5,6 +5,8 @@ A mini e-commerce application built with Rails 4.2
 ## Screenshots:
 !['Homepage'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/Homepage.png?raw=true)
 
+!['Create Account'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/CreateAccount.png?raw=true)
+
 !['Cart Page with Stripe Configuration'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/myCart.png?raw=true)
 
 !['Order Confirmation Page'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/orderPlaced.png?raw=true)

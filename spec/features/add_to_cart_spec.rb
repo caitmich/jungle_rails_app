@@ -16,7 +16,7 @@ RSpec.feature "AddToCarts", type: :feature, js: true do
       end
     end
 
-  scenario "They can add a product to cart and cart icon increases by 1" do
+  xscenario "They can add a product to cart and cart icon increases by 1" do
     visit root_path
     click_button('Add', match: :first)
 

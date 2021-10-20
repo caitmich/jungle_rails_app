@@ -3,17 +3,23 @@
 A mini e-commerce application built with Rails 4.2
 
 ## Screenshots:
+
+### Homepage
 !['Homepage'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/Homepage.png?raw=true)
 
+### Create Account
 !['Create Account'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/CreateAccount.png?raw=true)
 
+### Cart page with Stripe configuration
 !['Cart Page with Stripe Configuration'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/myCart.png?raw=true)
 
+### Order confirmation page
 !['Order Confirmation Page'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/orderPlaced.png?raw=true)
 
-#### Administrators:
+## Administrator Access:
 !['Admin Navbar Options'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/AdminOptions.png?raw=true)
 
+### Administrator access password-protected
 !['Admin Access Restricted'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/AdminAccessRestricted.png?raw=true)
 
 !['Admin Categories'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/AdminCategories.png?raw=true)

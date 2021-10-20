@@ -3,6 +3,9 @@
 A mini e-commerce application built with Rails 4.2
 
 ## Screenshots:
+!['Admin Access Restricted'](https://github.com/caitmich/jungle_rails_app/blob/master/documents/AdminAccessRestricted.png?raw=true)
+
+
 
 
 ## Setup:

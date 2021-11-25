@@ -13,7 +13,7 @@ main section.categories-show {
       // so that footer within can be positioned absolutely
       position:  relative;
 
-      border:        1px solid #ccc;
+      border:        3px solid black;
       border-radius: 5px;
       padding:       15px;
       padding-bottom: 80px;
@@ -56,6 +56,7 @@ main section.categories-show {
         left: 0;
         padding: 10px;
         background-color: #f89292;
+        border-color: black;
         border-top-left-radius: 4px;
         border-bottom-right-radius: 20px;
         font-size: 0.8em;
@@ -63,7 +64,7 @@ main section.categories-show {
 
       &:hover {
 
-        border-color: #999;
+        border-color: lightskyblue;
 
         footer {
           opacity: 1.0;

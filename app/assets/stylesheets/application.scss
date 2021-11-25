@@ -4,14 +4,27 @@
 @import "font-awesome";
 
 // App
-@import "products";
+@import "products.scss";
 
 // Global
 body {
   padding-top: 70px;
 }
+a{
+  font-size: 20px;
+}
 
 // Bootstrap adjustments
 form.button_to {
   display: inline;
+}
+nav.navbar.navbar-default.navbar-fixed-top{
+  background-color: #fde2c1;
+  opacity: 0.8;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fde2c1 7px ), repeating-linear-gradient( #ffe8be55, #ffe8be );
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 24px;
 }
